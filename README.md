@@ -1,6 +1,6 @@
 # Sistem Manajemen Parkir Kampus
 
-**Kelompok 9 (THREE BROTHER)** — Kelas T1-E  
+**Kelompok 9** — Kelas T1-E  
 Program Studi Teknologi Informasi, Fakultas Vokasi, Universitas Brawijaya (2026)
 
 ## Daftar Anggota & Akun GitHub
