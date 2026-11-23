@@ -18,4 +18,4 @@ Program Studi Teknologi Informasi, Fakultas Vokasi, Universitas Brawijaya (2026)
 | **Satrio Kinantan T. K.**<br>NIM: 263140707111015 | `@satrioktk` | Pembuatan folder `docs/` & draf proposal, fitur tampilkan daftar kendaraan & pencarian plat nomor (*Read & Search*), rekapitulasi pendapatan & validasi input, serta penyusunan Bab III laporan. | Belum tersedia (Tahap Proposal) |
 
 ## Deskripsi Singkat Proyek
-Aplikasi berbasis terminal (*console*) menggunakan **TypeScript** untuk mengelola transaksi parkir kampus secara berulang dalam satu sesi kerja, mencakup pencatatan transaksi baru (*Create*), penampilan daftar & struk transaksi (*Read*), pembaruan data (*Update*), penghapusan data dengan konfirmasi (*Delete*), serta pencarian transaksi (*Search*).
+Aplikasi berbasis terminal (*console*) menggunakan **TypeScript** untuk mengelola transaksi parkir kampus secara berulang dalam satu sesi kerja, mencakup pencatatan transaksi baru (*Create*), penampilan daftar & struk transaksi (*Read*), pembaruan data (*Update*), penghapusan data dengan konfirmasi (*Delete*), serta pencarian transaksi (*Search*).     
