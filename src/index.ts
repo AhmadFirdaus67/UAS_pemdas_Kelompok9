@@ -546,6 +546,7 @@ function cariTransaksi(): void {
 function tampilkanMenu(): void {
     console.log("\n======================================");
     console.log("       SISTEM MANAJEMEN PARKIR        ");
+    console.log(`   Total Transaksi Tersimpan: ${daftarTransaksi.length} data`);
     console.log("======================================");
     console.log("1. Tambah Transaksi (Create)");
     console.log("2. Lihat Transaksi (Read)");
@@ -583,7 +584,7 @@ function main(): void {
 
         // Memeriksa pilihan menu
         if (!validasiMenu(pilihan)) {
-            console.log("[ERROR] Pilihan menu tidak valid!");
+            console.log(`[ERROR] Pilihan menu "${pilihan}" tidak valid! Silakan pilih 1-6.`);
             continue;
         }
 
@@ -621,6 +622,7 @@ function main(): void {
 
             case "6":
                 berjalan = false;
+                console.log(`\nTotal transaksi sesi ini: ${daftarTransaksi.length} data`);
                 console.log("\nTerima kasih telah menggunakan aplikasi!");
                 break;
         }
