@@ -1,3 +1,4 @@
+
  import * as readlineSync from "readline-sync";
 
 // 1. STRUKTUR DATA 
@@ -628,3 +629,4 @@ function main(): void {
 
 // Memulai program
 main();
+
