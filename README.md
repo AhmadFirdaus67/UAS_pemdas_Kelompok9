@@ -15,7 +15,7 @@ Program Studi Teknologi Informasi, Fakultas Vokasi, Universitas Brawijaya (2026)
 | :--- | :--- | :--- | :--- |
 | **Angga Ardian Putra**<br>NIM: 263140707111007 | `@anggaardian21` | Penyusunan `README.md` awal, fitur kendaraan keluar & perhitungan tarif otomatis (*Update*), fitur hapus data kendaraan (*Delete*), serta penyusunan Bab II laporan (Flowchart). | https://github.com/AhmadFirdaus67/UAS_pemdas_Kelompok9/pull/4|
 | **Ahmad Firdaus Dhaifullah**<br>NIM: 263140707111010 | `@AhmadFirdaus67` | Setup repository GitHub & konfigurasi awal TypeScript, perancangan struktur data kendaraan & tarif, menu utama, fitur input kendaraan masuk (*Create*), serta penyusunan Bab I laporan. | https://github.com/AhmadFirdaus67/UAS_pemdas_Kelompok9/pull/5 |
-| **Satrio Kinantan T. K.**<br>NIM: 263140707111015 | `@satrioktk` | Pembuatan folder `docs/` & draf proposal, fitur tampilkan daftar kendaraan & pencarian plat nomor (*Read & Search*), rekapitulasi pendapatan & validasi input, serta penyusunan Bab III laporan. | https://github.com/AhmadFirdaus67/UAS_pemdas_Kelompok9/pull/3 |
+| **Satrio Kinantan T. K.**<br>NIM: 263140707111015 | `@satrioktk` | Pembuatan folder `docs/` & draf proposal, fitur tampilkan daftar kendaraan & pencarian plat nomor (*Read & Search*), rekapitulasi pendapatan & validasi input, serta penyusunan Bab III laporan. | https://github.com/AhmadFirdaus67/UAS_pemdas_Kelompok9/pull/6 |
 
 ## Deskripsi Singkat Proyek
 
