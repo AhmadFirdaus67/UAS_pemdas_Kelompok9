@@ -366,6 +366,8 @@ function tambahTransaksi(): void {
 
 // 8. FITUR READ
 
+// 8. FITUR READ
+
 // Menampilkan seluruh transaksi yang tersimpan
 function tampilkanSemuaTransaksi(): void {
     console.log("\n========== DAFTAR TRANSAKSI ==========");
@@ -375,6 +377,9 @@ function tampilkanSemuaTransaksi(): void {
         return;
     }
 
+    // Variabel untuk menghitung total pendapatan
+    let totalPendapatan: number = 0;
+
     for (const transaksi of daftarTransaksi) {
         console.log("--------------------------------------");
         console.log(`ID           : ${transaksi.id}`);
@@ -382,10 +387,14 @@ function tampilkanSemuaTransaksi(): void {
         console.log(`Kendaraan    : ${transaksi.jenisKendaraan}`);
         console.log(`Durasi       : ${transaksi.durasiJam} jam`);
         console.log(`Total Bayar  : Rp ${transaksi.totalBayar}`);
+
+        // Menjumlahkan seluruh total pembayaran
+        totalPendapatan += transaksi.totalBayar;
     }
 
     console.log("--------------------------------------");
-    console.log(`Jumlah transaksi: ${daftarTransaksi.length}`);
+    console.log(`Jumlah transaksi : ${daftarTransaksi.length}`);
+    console.log(`TOTAL PENDAPATAN : Rp ${totalPendapatan}`);
 }
 
 // Menampilkan detail transaksi berdasarkan ID
@@ -403,8 +412,6 @@ function cariDetailID(): void {
         tampilkanDetail(transaksi);
     }
 }
-
-
 // 9. FITUR UPDATE
 
 // Mengubah data transaksi berdasarkan ID
@@ -472,10 +479,17 @@ function hapusTransaksi(): void {
     }
 }
 // 11. FITUR SEARCH
+    // 11. FITUR SEARCH
 
 // Mencari transaksi berdasarkan keyword dan filter
 function cariTransaksi(): void {
     console.log("\n========== CARI TRANSAKSI ==========");
+
+    // Memeriksa apakah data transaksi masih kosong
+    if (daftarTransaksi.length === 0) {
+        console.log("Data transaksi masih kosong.");
+        return;
+    }
 
     const keyword: string = inputTeks(
         "Masukkan keyword (plat/jenis kendaraan/ID): "
@@ -517,17 +531,19 @@ function cariTransaksi(): void {
 
             const cocokJenis: boolean =
                 filter === 0 ||
-                item.jenisKendaraan === jenisFilter;
+                item.jenisKendaraan.toLowerCase() ===
+                jenisFilter.toLowerCase();
 
             return cocokKeyword && cocokJenis;
         });
 
+    console.log("\n========== HASIL PENCARIAN ==========");
+
     if (hasil.length === 0) {
         console.log("Tidak ada transaksi yang cocok.");
+        console.log("Jumlah data ditemukan: 0");
         return;
     }
-
-    console.log("\n========== HASIL PENCARIAN ==========");
 
     for (const transaksi of hasil) {
         console.log("--------------------------------------");
