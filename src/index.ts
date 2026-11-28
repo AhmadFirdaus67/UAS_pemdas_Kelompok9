@@ -366,8 +366,6 @@ function tambahTransaksi(): void {
 
 // 8. FITUR READ
 
-// 8. FITUR READ
-
 // Menampilkan seluruh transaksi yang tersimpan
 function tampilkanSemuaTransaksi(): void {
     console.log("\n========== DAFTAR TRANSAKSI ==========");
@@ -479,7 +477,6 @@ function hapusTransaksi(): void {
     }
 }
 // 11. FITUR SEARCH
-    // 11. FITUR SEARCH
 
 // Mencari transaksi berdasarkan keyword dan filter
 function cariTransaksi(): void {
